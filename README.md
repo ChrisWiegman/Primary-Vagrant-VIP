@@ -7,9 +7,9 @@ A WordPress VIP site configuration for [Primary Vagrant](https://github.com/Chri
 
 Clone the Primary Vagrant VIP Add-on to _www/vip_ in your Primary Vagrant Folder
 
-```git clone https://github.com/ChrisWiegman/Primary-Vagrant-VIP.git www/vip```
+```git clone https://github.com/ChrisWiegman/Primary-Vagrant-VIP.git user-data/sites/vip```
 
-Copy _vip.wordpress.pv.pp_ to the _userdata/siteconf_ folder
+Copy _vip.wordpress.pv.pp_ to the _user-data/vhosts_ folder
 
 Run Vagrant up.
 
