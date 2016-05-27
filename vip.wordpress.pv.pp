@@ -101,7 +101,7 @@ apache::vhost { 'vip.wordpress.pv':
   directory                => '/var/www/vip.wordpress.pv',
   directory_allow_override => 'All',
   ssl                      => true,
-  template                 => '/var/vagrant/lib/conf/vhost.conf.erb',
+  template                 => '/vagrant/provision/lib/conf/vhost.conf.erb',
 }
 
 mysql_database { 'tests.vip.wordpress.pv':
